@@ -1,0 +1,861 @@
+/*
+Theme Name:   CareerIam
+Description:  Social Job Site
+Author:       Matt Jennings
+Author URI:   http://codeandsilver.com
+Template:     wpjobus
+Version:      1.0.0
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+#menu-footer-menu a { font-family: 'Roboto', sans-serif; }
+
+@font-face { font-family: 'robotoregular'; src: url('roboto-regular-webfont.eot'); src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('roboto-regular-webfont.woff2') format('woff2'),  url('roboto-regular-webfont.woff') format('woff'),  url('roboto-regular-webfont.ttf') format('truetype'),  url('roboto-regular-webfont.svg#robotoregular') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'robotobold'; src: url('roboto-bold-webfont.eot'); src: url('roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),  url('roboto-bold-webfont.woff2') format('woff2'),  url('roboto-bold-webfont.woff') format('woff'),  url('roboto-bold-webfont.ttf') format('truetype'),  url('roboto-bold-webfont.svg#robotobold') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'robotolight'; src: url('roboto-light-webfont.eot'); src: url('roboto-light-webfont.eot?#iefix') format('embedded-opentype'),  url('roboto-light-webfont.woff2') format('woff2'),  url('roboto-light-webfont.woff') format('woff'),  url('roboto-light-webfont.ttf') format('truetype'),  url('roboto-light-webfont.svg#robotolight') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'robotomedium'; src: url('roboto-medium-webfont.eot'); src: url('roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),  url('roboto-medium-webfont.woff2') format('woff2'),  url('roboto-medium-webfont.woff') format('woff'),  url('roboto-medium-webfont.ttf') format('truetype'),  url('roboto-medium-webfont.svg#robotomedium') format('svg'); font-weight: normal; font-style: normal; }
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+.left-avatar > img { width:100px !important; }
+
+.bp_chatbar { width:auto !important; }
+
+body { background-color: #fff; color: #666666; font-family: 'Roboto', sans-serif; font-size: 13px; line-height: 1.5; margin: -32px 0 0 !important; overflow-x: hidden; }
+
+img { height: auto; }
+
+body.logged-in { background-color: #fff; color: #666666; font-family: 'Roboto', sans-serif; font-size: 13px; line-height: 1.5; margin: 0px 0 0 !important; overflow-x: hidden; }
+
+.logo { margin-top: 2px; }
+
+#search-widget { float: left; width: 100%; margin-top: 50px !important; margin-bottom: 50px; }
+
+.coverImageHolder { filter: alpha(opacity=90); -moz-opacity: 0.99999; -khtml-opacity: 0.9999; opacity: 0.9999; }
+
+.bannerText { display: none; position: absolute; left: 0; right: 0; top: 35%!important; text-align: center; padding: 10px 30px 30px 30px !important; max-width: 600px; border: 0px solid #fff !important; zoom: 1; z-index: 9; margin-right: auto; margin-left: auto; }
+
+#resume-cover-image { position: relative; width: 100%; float: left; overflow: hidden; background: #000; height: 600px !important; }
+
+#page { margin-top: 40px; }
+
+.socket { background-color: #e4e4e4 !important; color: #737373; float: left; width: 100%; }
+
+body.home-page .new-posts-menu, .new-posts-menu { display: none !important; }
+
+body.logged-in .new-posts-menu { display: inline; }
+
+.resume-author-avatar-holder { display: inline-block; width: 255px !important; ; height: 255px !important; ; border: solid 0px #fff !important; -webkit-border-radius: 140px; -moz-border-radius: 140px; border-radius: 140px; overflow: hidden; }
+
+footer { background-color: #fff; border-top: solid 3px #bdc3c7; float: left; width: 100%; padding: 0px !important; }
+
+/*Activity*/
+
+.users_message .avatar { float: left; height: 20px; width: 20px; margin-right: 5px; }
+
+.mainin .users_message { float: left; padding: 5px 0; width: 100%; }
+
+#whats-new-options { overflow: hidden !important; }
+
+#buddypress div.activity-comments form .ac-textarea { height: 23px; }
+
+body.activity #buddypress { background: none; padding: 20px; }
+
+.bpfb_form_container { padding: 1em; background-color: transparent !important; }
+
+.wall-content { background: #FFF; }
+
+.activity-avatar { background: none; }
+
+img { max-width: 100%; }
+
+.edit-attachment { display: none !important; }
+
+.acomment-avatar { float: left; padding: 0 10px 0 0; }
+
+#buddypress div.item-list-tabs ul li.selected a { background-color: transparent !important; color: #555; opacity: .8; font-weight: 700; }
+
+#buddypress div.activity-comments { margin: 0px 0 0 0px!important; overflow: hidden; position: relative; width: auto; clear: both; background: none !important; }
+
+#buddypress a.activity-time-since { clear: both; display: block !important; font-weight: normal !important; }
+
+#buddypress ul.item-list li { border-bottom: none; }
+
+#buddypress form#whats-new-form #whats-new-content { clear: both; margin-left: 0; padding: 0 !important; width: 100%; }
+
+.avatar { border-radius: 50% !important; height: 100px; width: 100px; }
+
+body.home #page { background: #fff; margin-top: 0px;} 
+
+.logo img { margin-top: 0; width: auto !important; }
+
+.homepage { padding: 0px !important; margin: 0px !important; }
+
+.homepage .logo { float: none !important; margin: 0px auto; height: auto; width: 100% !important; padding-bottom: 0px !important; }
+
+.homepage .logo img { margin-top: 0px; width: 100% !important; display: block !important; margin: 0px auto !important; margin-bottom: 0px !important; }
+
+.ls-wp-fullwidth-container { margin-top: -75px; }
+
+#layerslider .ls-wp-fullwidth-container { margin-top: 0; }
+
+.ls-bg.ls-preloaded { height: 100% !important; margin: 0 !important; width: 100% !important; }
+}
+
+.main_menu ul li a { color: #000 !important; }
+
+#top { background: #fff !important; }
+
+.header-stats { display: none; }
+
+.top-social-icons { float: right !important; }
+
+#logobody { clear: both; width: 100%; background: #fff; }
+
+.top_menu.account-menu ul { margin-top: 2px; }
+
+.top_menu.account-menu ul li.last a { background-color: #FFFFFF !important; color: #000 !important; }
+
+.top_menu.account-menu ul li.first a { background-color: #FFFFFF !important; color: #000 !important; }
+
+.main_menu ul { padding: 0; margin: 0; float: right; list-style: none; margin-top: 8px !important; margin-bottom: 19px !important; margin-left: 35px !important; }
+
+.homepagemenu .main_menu { float: left; display: inline;position: relative;margin: 15px 0 0; }
+
+.homepagemenu .logo {
+  display: table;
+  float: none !important;
+  margin: 0 auto !important;height: auto;
+} 
+
+.homepagemenu .main_menu ul { padding: 0; margin: 0px auto; float: none; list-style: none; margin-top: 8px !important; margin-bottom: 18px !important; text-align: center; }
+
+.homepagemenu .main_menu ul li { float: none; display: inline-block; }
+
+.top-home .top_menu ul li a, .homepagemenu .main_menu ul li a { border: none !important; }
+
+.top-home { height: 700px; }
+
+.home .top-home .account-menu ul li a { color: #FFF !important; background: none !important; }
+
+.top-home #top, .top-home #header-main, .top-home #logobody { background: rgba(0, 0, 0, 0.2) none no-repeat scroll 0 0 !important; }
+
+.top-home #header-main{border-bottom: 1px solid #8f8f8f !important;padding: 40px 0 25px;}
+
+.homepagemenu .main_menu ul li a { border: none !important; color: #FFF !important; background: none !important; }
+
+.homepagemenu .main_menu ul li ul li { width: 100%; background: rgba(0, 0, 0, 0.5) none no-repeat scroll 0 0 !important; }
+
+iframe { -webkit-box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important; -moz-box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important; box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important; }
+
+.resume-section-title { text-align: center; color: #000; margin-bottom: 10px; font-family: "Roboto", serif; font-size: 42px; font-weight: 300; }
+
+.resume-section-title .fa-user { padding:10px 13px; border-radius:50%; background:#b5b5b5; color:#FFF; }
+
+ul.flr { margin-left:25px; }
+
+.flr li { margin-bottom:5px; list-style:none; }
+
+.rounded-img img { border-radius:50%; }
+
+.resume-section-title img { max-width: 200px; }
+
+.fa-search:before { content: "\f002"; color: #000; }
+
+.education-period-circle { border: none !important; background-color: #fff; color:#716666; }
+
+.education-period-circle .fa.fa-book { font-size: 38px; }
+
+.fa-institution:before, .fa-bank:before, .fa-university:before { content: "\f19c"; color: #2980B9; }
+
+.fa-trophy:before, .fa-building:before, .fa-bookmark:before, .fa-envelope:before, .fa-list-ul:before, .work-experience-org-name, .work-experience-job-type, .fa-mobile-phone:before, .fa-mobile:before, .fa-chain:before, .fa-link:before, .fa-check:before, .fa-map-marker:before, .fa-linkedin-square:before, .fa-copy:before, .fa-files-o:before { color: #2980B9; }
+
+period-circle { background-color: #fff; border:2px solid #000; color:#716666; }
+
+.awards-trophy .education-period-circle { background-color: #fff; border:2px solid #000; color:#716666; }
+
+.follow-button { margin-top:10px; }
+
+.vid { margin: 0 auto; width: 500px; }
+
+.ff-items a { display: initial; position: relative; background: #fff; width: 100%; height: 207px; overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+
+body.single-resume .two_third { background: #fff; }
+
+body.single-resume .ff-container { margin-bottom: 100px; }
+
+.education-period-trophy .fa-trophy:before { color: #716666; }
+
+.awards-trophy .education-period-circle::before, .awards-trophy .education-period-circle::after { border-left: 1px solid #2980B9; }
+
+#blog .ui-slider-horizontal .ui-slider-handle { background: none repeat scroll 0 0 #2980B9; }
+
+.cpmpany-banner .banner-hello, .job-banner .banner-hello { margin-top: 10%; top: 100%; }
+
+#header-main { float: left; width: 100%; background-color: #fff; position: relative; z-index: 1001; border-bottom: solid 0px #bdc3c7 !important; }
+
+#companies-block-list-ul li a:hover .company-holder-block { margin-bottom: 5px; }
+
+.company-follow { color: #999999; font-size: 12px; font-weight: normal; }
+
+.company-follow a { margin-left: 80px; margin-bottom: 10px; outline: none; }
+
+.company-following { color: #999999; font-size: 12px; font-weight: normal; }
+
+.company-following a { margin-left: 80px; margin-bottom: 10px; outline: none; }
+
+#single-resume #header-main, #single-company #header-main, #single-job #header-main { margin-top: 0px !important; }
+
+#single-resume #header, #single-company #header, #single-job #header { top: 0; margin-top: 0px !important; position: relative !important; }
+
+#single-resume #top, #single-company #top, #single-job #top { margin-top: 0px; }
+
+.hometop { margin-bottom: 50px; padding-top: 0px; }
+
+.hometop img { margin-bottom: 45px; }
+
+.homebuttom .textwidget { padding: 0px !important; margin-bottom: 0px !important; }
+
+#homevedio .one_half { padding-bottom: 0px !important; margin-bottom: 0px !important; }
+
+#homevedio { background: #6a93cd; background: url(img/careerpitch.jpg) no-repeat bottom center; }
+
+#homevedio .one_half .arve-wrapper { margin-bottom: 0px !important;left:0 !important;top:0 !important; }
+
+.homebuttomright { margin-left: 18%; margin-right: 18%; margin-top: 14%; }
+
+.homebuttomright .textwidget { padding:0px 15px 10px 15px; background: rgba(0, 0, 0, 0.7); }
+
+#homebutton { background: #FFF; }
+
+h5 { line-height: 22px; text-transform: none; }
+
+.habout { text-align: center; color: #0d0d0d; font-size: 65px; font-weight: 800; line-height: 88px; text-transform: none; margin-bottom: 25px; }
+h3.habout2{background:rgba(0, 0, 0, 0) -moz-linear-gradient(left top , rgb(38, 162, 192), rgb(50, 174, 204), rgb(74, 207, 163), rgb(67, 196, 153)) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -moz-linear-gradient(left top , rgb(38, 162, 192), rgb(50, 174, 204), rgb(74, 207, 163), rgb(67, 196, 153)) repeat scroll 0 0;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    width: 14%;
+	color:#fff;}
+	.full .btns{margin-bottom:6%;}
+	.full.align-center > p {
+    font-family: Josefin,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.title-standard { font-family: 'Roboto', sans-serif; font-size: 21px; font-weight: 400; line-height: 23px; text-transform: none; color: #0d0d0d; margin-bottom: 20px; }
+
+.front-box { max-width: 350px; }
+
+.front-text-wrapper { background: rgba(0, 0, 0, 0.5) none no-repeat scroll 0 0; border-color: #000000; color: #ffffff; text-shadow: 1px 1px 1px #000000; height: 70px; padding: 10px 10px; margin-left: auto; margin-right: auto; position: absolute; bottom: 0; width: 350px; max-width: 100%; display:none;}
+
+.front-text-wrapper h5 { color: #FFF; text-align: center; font-size: 18px; margin-top:5px; }
+
+.separator-small span { background: #0d0d0d none repeat scroll 0 0; display: block; height: 1px; line-height: 1px; width: 40px; margin-bottom: 20px; }
+ [data-bigletter] {
+ position: relative;
+ z-index: 1;
+}
+
+[data-bigletter]::before { content: attr(data-bigletter); font-size: 1.9em; font-weight: 700; left: -0.35em; position: absolute; text-align: center; top: -0.25em; transition: all 600ms ease 0.2s; z-index: -1; }
+
+.align-center [data-bigletter]::before, .align-center[data-bigletter]::before, nav#main-nav [data-bigletter]::before { left: 50%; margin-left: -600px; width: 1200px; }
+
+.align-right [data-bigletter]::before, .align-right[data-bigletter]::before { left: inherit; right: -0.35em; }
+
+.visible[data-bigletter]::before { opacity: 0.07; top: -0.02em; }
+
+.text-light .visible[data-bigletter]::before { opacity: 0.15; }
+
+.separator { display: block; height: 5px; margin: 5px 0 18px; position: relative; width: 100%; text-align: center; }
+
+.separator span::before, .separator span::after { border-bottom: 1px solid #0d0d0d; content: ""; display: inline-block; height: 2px; position: absolute; right: 12px; top: 0; vertical-align: top; width: 28px; }
+
+.separator span::after { left: 12px; right: inherit; }
+
+.separator span::before, .separator span::after { border-bottom: 1px solid #0d0d0d; content: ""; display: inline-block; height: 2px; position: absolute; right: 12px; top: 0; vertical-align: top; width: 28px; }
+
+.separator span { background: #0d0d0d none repeat scroll 0 0; border-radius: 10px; display: block; height: 5px; margin: 0 auto; position: relative; width: 5px; }
+
+.home-barea { background: rgb(255, 255, 255) none repeat scroll 0 0;
+    color: rgb(77, 77, 77) !important;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    height: 340px;
+    letter-spacing: 0.02em;
+    line-height: 23px;
+    padding: 15px;
+    text-align: center;}
+	.one_third > img {
+    height: 290px;   
+}
+#homebutton .one_third .title-standard {
+  bottom: -180px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+}  
+#homebutton {
+    background: rgba(0, 0, 0, 0) url("http://careeriam.com/wp-content/uploads/2015/11/map.png") no-repeat scroll -18px 199px !important;   
+    position: relative;
+    width: 100%;
+}
+
+#buddypress ul.item-list li { width:100%; float:left; }
+
+.homebuttomright p { font-family: 'Roboto', sans-serif; font-size: 15px !important; font-weight: 300 !important; letter-spacing: 0.02em; line-height: 26px; text-align: left; }
+
+.menu-nav-trigger { display: none; }
+
+a.my-account-header-settings-link { margin-left: 8px; margin-top: 10px; }
+
+.widget #members-list-options { margin-left: 10px; }
+
+.sidebar-resume-associates .widget { background: none; border: none; margin-bottom: 30px; }
+
+.one_third.sidebar-widgets { background: none !important; border: none !important; }
+
+.sidebar-resume-associates .widget .textwidget { padding: 0px; margin-top: 20px; }
+
+.sidebar-widgets .widget ul li { font-style: normal; }
+
+.resume-associates { background: none repeat scroll 0 0 #fff; border: 30px solid #fff; float: left; padding-bottom: 30px; position: relative; width: 100%; z-index: 99; text-align: left; }
+
+*, *::after, *::before { box-sizing: border-box; }
+
+#resume-about-block .two_third, #resume-skills-block .two_third { padding: 20px; }
+
+.widget .block-title { margin-top: 0; }
+
+.sidebar-widget-bottom-line { border: none; margin-top: 50px; }
+
+.searchcr { background: #F7F8FC url(img/search.png) no-repeat left center; padding-left: 26px; margin-bottom: 15px; border: 2px solid #000; }
+
+#inline1 .two_third.first { width: 100%; }
+
+#inline1 input, textarea { width:91%; }
+
+.fancybox-skin { top:42px; }
+
+#inline1 #contact > h4 { margin: 8px 0; padding: 0; }
+
+#inline1 .resume-section-title { color: #000; font-family: "Roboto", serif; font-size: 22px; font-weight: 300; margin: 0; padding: 0; text-align: center; width: 90%; }
+
+.fancybox-inner { overflow-x: hidden !important; }
+
+#success span h3 { color: #9bd32d; font-size: 17px; line-height: 20px; margin: 0; padding: 23px 0; text-align: center; width: 84%; }
+
+.searchcr:focus { background: #ecf0f1 url(img/search.png) no-repeat left center; padding-left: 26px; }
+
+.resume-associates .widget .block-title { color: #000; font-family: 'Roboto', sans-serif; font-size: 24px; font-style: normal; font-weight: normal; line-height: 24px; text-align: center }
+
+.resume-associates .widget .divider { margin-top: 10px; margin-bottom: 10px; }
+
+.resume-associates .widget ul#members-list { margin-left: 15px; }
+
+#resume-contact-block { margin-top: 0px; }
+
+.sidebar-widgets .widget .block-title { text-transform: none; color: #000; }
+
+.sidebar-widgets .widget .block-title a { color: #000; }
+
+.sidebar-widgets .widget ul#members-list li a { color: #484848; font-family: Roboto Slab; font-size: 18px; margin-top: 4px; transition: all 0.2s ease 0s; text-transform: none; }
+
+.sidebar-widgets .widget ul#members-list li a:hover { color: #1F6797; }
+
+.sidebar-widgets .widget ul#members-list li .activity { font-size: 10px; }
+
+.fa-info-circle::before { color: #2980b9; }
+
+.awards-trophy .pitchcompany span a { color: #2980b9; font-size: 16px; line-height: 24px; }
+
+.pitchcompany ul li { clear: both; list-style: none; margin-bottom: 20px; display: block; }
+
+.pitchcompany ul li img { max-width: 50px; max-height: 50px; }
+
+.logo-block { width: 50px; height: 50px; float: left; margin-right: 15px; }
+
+.name-block { width: 175px; display: inline-block; }
+
+.location-block { font-size: 10px; font-weight: normal; width: 175px; display: inline-block; color: #000; }
+
+.location-block .fa-map-marker { font-size: 11px !important; color: #000 !important; }
+
+.awards-trophy .pitchcompany .fa { color: #16a085; float: left; font-size: 16px; margin-top: 4px; text-align: center; width: 34px; }
+
+#resume-cover-image .bannerText { top: 19% !important; }
+
+ul#companies-block-list-ul li { border-bottom: 1px solid #ecf0f1; }
+
+ul#companies-block-list-ul li a, ul#companies-block-list-ul li a:hover { border: none; }
+
+ul#companies-block-list-ul li a.resumelists { width: 65%; float: left; }
+
+ul#companies-block-list-ul li .generic-button { float: right; line-height: 85px; width: 35%; padding:45px; }
+
+ul#companies-block-list-ul li .generic-button a { font-size: 12px; }
+
+.resume-contact-info .widget #message { padding: 2px 20px; }
+
+.cptch_input { float: none; }
+
+.tab_content.bc_block { display: block !important; }
+
+.chat_button { height: 25px !important; }
+
+.chat_send_message_btn { background: none repeat scroll 0 0 #333; color: #ffffff; float: right; font-weight: bold; margin: 0; padding: 12px 10px 26px 11px !important; position: absolute; top: 1px; }
+
+.chat_input { border: 0 none; height: 38px; margin: 0; padding: 0; width: 180px; }
+
+#item-header-avatar .avatar { border-radius: 100px !important; }
+
+#whats-new-textarea > textarea { background: none !important; border: 1px solid #e1e1e1; box-shadow: 0 0 5px #e1e1e1; min-height: 60px; float: right; width: 100%!important; }
+
+#buddypress form#whats-new-form #whats-new-submit { float: right; margin-top: 0; }
+
+#whats-new-options #whats-new-submit input { background: none repeat scroll 0 0 #2980b9; color: #fff; font-size: 12px; height: auto; margin: 0; padding: 8px; text-transform: capitalize; }
+
+#whats-new-options #whats-new-submit input:hover { background: none repeat scroll 0 0 #479ed7 !important; }
+
+#buddypress div.item-list-tabs ul li.last select { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #ccc; color: #000; float: right; font-size: 14px; max-width: 100%; padding: 3px; vertical-align: middle; }
+
+#buddypress div.activity-comments form .ac-textarea { border: medium none; color: #000; height: 23px; min-height: 40px; overflow: hidden; }
+
+#buddypress div.activity-comments form .ac-textarea .ac-input { height: 100% !important; margin: 0 !important; }
+
+.bpfb_actions_container.bpfb-theme-new.bpfb-alignment-right { float: left; margin-right: 0; width: 82%; }
+
+#buddypress div#subnav.item-list-tabs ul li.last { margin-top: 2px; }
+
+#buddypress #whats-new-options { float: right; height: auto; overflow: auto; width: auto; }
+
+#buddypress div#subnav.item-list-tabs { background: none repeat scroll 0 0 transparent; float: right; margin: -29px 0 10px; overflow: hidden; width: auto; }
+
+#buddypress div.item-list-tabs { background: none repeat scroll 0 0 transparent; clear: left; float: left; margin: 5px 0 0; overflow: hidden; width: auto; }
+
+#activity-filter-select > label { float: left; margin: 3px 10px 0 0; }
+
+#buddypress .activity .load-more { background: none repeat scroll 0 0 #2980b9 !important; border-radius: 34px; padding: 0!important; }
+
+#buddypress .activity .load-more a { color: #fff !important; display: inline-block; font-size: 16px; padding: 10px 0; width: 100%; }
+
+#buddypress .activity .load-more a:hover { background: none repeat scroll 0 0 #479ed7 !important; }
+
+#buddypress form#whats-new-form p.activity-greeting { float: left; font-size: 18px; line-height: 22px; margin-bottom: 15px; margin-left: 20px; }
+
+#object-nav.item-list-tabs.no-ajax { margin-bottom: 15px; }
+
+#item-body #subnav.item-list-tabs.no-ajax { margin: 0 !important; }
+
+#whats-new-options #whats-new-post-in-box { float: left; left: 126px; position: absolute; width: 153px; }
+
+#whats-new-options #whats-new-post-in-box select { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #ccc; color: #000; float: right; font-size: 14px; margin: 0 !important; padding: 3px; vertical-align: middle; }
+
+.activity-content, .activity-comments { background: none !important; float: right; margin: 0 !important; padding: 12px; width: 100% !important; }
+
+.activity-content p a img { height:60px; width:60px; }
+
+.activity-comments { border-bottom: 1px solid #333333; }
+
+#whats-new-avatar .avatar.avatar-50.photo { height: 50px; width: 50px; }
+
+.activity-avatar .avatar.avatar-50.photo { border:none !important; border-radius: 90px !important; height: 60px; width: 60px; }
+
+#buddypress div.activity-meta a { color: #169fe6; }
+
+.bp-primary-action { border-radius: 15px; border-color: #169fe6 !important; background: none !important; }
+
+.bp-primary-action span { background: none !important; color: #169fe6 !important; }
+
+.bp-secondary-action { border-radius: 15px; background: none !important; border: 1px solid #169fe6; }
+
+.friendship-button a { border-radius: 15px; background: none !important; border: 1px solid #169fe6 !important; line-height: 22px; padding: 5px 10px; margin-top: 5px; }
+
+.friendship-button.requested a, .friendship-button.pending_friend a { width: 200px !important; text-align: center !important; }
+
+.friendship-button a.add { width: 120px !important; text-align: center !important; }
+
+.friendship-button a.remove { width: 200px !important; text-align: center !important; }
+
+a.dflow, a.mfollow { border-radius: 15px; background: none !important; border: 1px solid #169fe6 !important; line-height: 22px; padding: 5px 10px; margin-top: 5px; width: auto; float: none !important; }
+
+#buddypress ul.item-list li img.avatar { float: left; margin-bottom: 0; margin-left: 0 !important; margin-right: 0; margin-top: 0; min-height: 60px; min-width: 60px; padding: 5px; vertical-align: bottom; }
+
+#buddypress .activity-list .activity-content { margin: 0 0 0 16px; }
+
+.resume-associates > .widget > .item-avatar > a { float: left; }
+
+.resume-associates .widget .block-title { text-transform: capitalize; }
+
+.resume-associates .widget .item-avatar { border-bottom: 1px dotted #ccc; margin: 0 0 15px; overflow: hidden; padding: 0 0 13px; }
+
+.resume-associates .widget .item-avatar:last-child { border-bottom: none; }
+
+.chat_window .win_header_image_link img { height: 20px; position: relative; top: -4px; width: 20px; }
+
+.resume-associates .widget .item-avatar .item { color: #222; float: right; font-size: 13px; text-transform: capitalize; width: 77%; }
+
+.resume-associates .widget .item-avatar .item .item-title.fn { font-weight: bold; text-transform: capitalize; }
+
+/*my*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one_third.sidebar-widgets { border: 1px solid rgb(229, 229, 229); padding: 0 0 10px; background: #fff; }
+
+.block-title { border-bottom: 1px solid rgb(229, 229, 229); margin: 0; padding: 16px; }
+
+.block-title > a { margin: 0 0 0 10px; }
+
+.one_third.sidebar-widgets .item-avatar { margin: 10px 0 0 10px; padding: 0 0 8px; width: 95%; }
+
+.one_third.sidebar-widgets > a { float: left; margin: 6px 0 0 10px; width: 100%; }
+
+.item { margin: 0 0 0 10px; padding: 0 0 9px 10px; width: 92%; height: 115px; }
+
+#buddypress ul.item-list li div.item-title, #buddypress ul.item-list li h4 { padding:20px; }
+
+.activity-header a:nth-child(2) img { height: 10px !important; width: 10px !important; }
+
+.activity-header a:nth-child(2) { float:none !important; }
+
+.item:nth-child(even) { border-bottom: 1px solid rgb(229, 229, 229); }
+
+#buddypress a.bp-secondary-action, #buddypress span.highlight { padding: 5px 15px !important; }
+
+.avatar { margin: 0 0 0 10px; }
+
+/*company-holder-block*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.company-holder-block .avatar { float: left; margin: 20px 0 0; }
+
+.company-holder-block .avatar img { width: 50px !important; height: 50px !important; }
+
+#companies-block-list-ul li a:hover .company-holder-block { border-bottom: none; }
+
+.resume-associates .widget { border: medium none; }
+
+#wpjobus_resume_video { padding: 0; margin: 0; margin-left: 5px; float: left; cursor: pointer; width: auto; }
+
+#wpjobus_resume_video:hover { padding: 0; margin: 0; margin-left: 5px; float: left; width: auto; color: #1f6797; }
+
+.company-holder-block .company-list-name { font-weight:bold; }
+
+.company-list-name > p { color: #333; float: left; font-family: 'Roboto', sans-serif; font-size: 16px; margin: 0; overflow: hidden; padding: 0; width: 100%; font-weight:bold; }
+
+.company-list-follow { float: right; margin-top: 19px; position: absolute; right: 0; }
+
+.light b { font-size: 18px; font-weight: bolder; text-transform: uppercase; }
+
+.fa-rss { border-radius: 50%; padding: 6px 8px; background: #F7F8FC; border: 1px solid #D9D9D9; margin-right: 5px; }
+
+.resume-author-avatar { margin-bottom: 0; }
+
+.resume-author-avatar > h4 { margin: 20px 0 4px; }
+
+.company-holder-block.sidebar { border-bottom: 1px solid rgb(229, 229, 229); }
+<!--
+
+cs--> #resume_careerpitch_radio { float: left; width: auto; }
+
+#resume_careerpitch_radio { float: left !important; width: auto; }
+
+.three_fifth > span { float: left; }
+
+.three_fifth > p { float: left; margin: 0; overflow: hidden; padding: 0; width: 100%; }
+
+.upload21 { float: left; margin: 7px 0 0; overflow: hidden; padding: 0; width: 150px; }
+
+.upload21 .fa.fa-cloud-upload { float: left !important; }
+
+.upload21 .criteria-video-button.button { float: left !important; margin: 0 !important; overflow: hidden; padding: 0; width: 114px; }
+
+.one_half .three_fifth > span { color: #484848; font-size: 12px; margin: 5px 0 0; }
+
+#buddypress #subnav.item-list-tabs.no-ajax { float: right; margin: 0; overflow: hidden; padding: 0; }
+
+td.img_center { text-align: center; margin: auto; padding: 0; vertical-align: middle; }
+
+#pfdf { border: 0 none; left: 0; position: absolute; right: 0; top: 0; z-index: 666; }
+
+#pdf-contain { margin: 0; padding: 0; position: relative; }
+
+#pfdf > img { width: 25%; }
+
+.company-list-icon { white-space: inherit !important; overflow: visible !important; }
+
+.clogo-image-replacer .fa { font-size:50px !important; margin-top:10px !important; }
+
+.helper { display: none; }
+
+.img_center .avatar { border-radius: 50px !important; }
+ @media screen and (max-width:480px) {
+
+#pfdf > img { width: 40%; }
+}
+
+.win_titlebar { background-color: #333 !important; }
+
+.win_titlebar { background-color: #333 !important; }
+
+.admin-settings-header-top { display: none; }
+
+.homepage .logo { display: none!important; }
+
+.top-home { background-image: url("http://careeriam.com/wp-content/uploads/2015/09/banner.jpg") !important; background-size: 100% 100%; }
+
+a.pending-posts { display: none; }
+
+body.home *::before { color: #fff; }   
+
+.top-home { height: 630px !important; }
+
+
+ @media all and (min-width: 1140px) {
+
+.top-home { height: 630px !important; }
+
+#resume-menu, #company-menu { width: 260px; position: fixed !important; height: 100% !important; left: 0; }
+
+#resume-menu .container, #company-menu .container { width: 100%; }
+
+.left-avatar > h5 { line-height: 15px !important; margin: 9px; padding: 0; font-size: 14px !important; }
+
+.left-avatar { margin-top: 45% !important; }
+
+.resume-author-avatar h4, .resume-author-avatar h5, .left-avatar h5 { font-family: 'Roboto', sans-serif; font-weight:bold; }
+
+#xprofile-personal-li, #wp-admin-bar-my-account-xprofile, #forums-personal-li, #settings-personal-li { display:none !important; }
+
+#object-nav, #subnav, #message { clear:both; display:block; float:none; text-align:left; }
+
+#company-menu .left-avatar img { }
+
+.left-avatar img { border-radius: 50%; margin: 10px auto; border: 1px solid #CCC; margin-bottom: 15px; }
+
+#resume-menu .container ul.navbar-nav, #company-menu .container ul.navbar-nav { height: auto !important; text-align: right !important; margin: auto !important; }
+
+#resume-menu .container ul.navbar-nav li, #company-menu .container ul.navbar-nav li { float: none !important; text-align: right !important; display: block !important; }
+
+#resume-menu .container ul.navbar-nav li a, #company-menu .container ul.navbar-nav li a { border: 1px solid green; border-radius: 18px; display: block !important; float: none !important; padding: 5px; text-align: center; margin-bottom: 15px; }
+
+.stuckMenu .left-avatar > a { border: 1px solid green; border-radius: 18px; display: block !important; float: none !important; margin: 0 auto; padding: 5px; text-align: center; width: 52% !important; color:green; }
+
+.stuckMenu .left-avatar > a .fa-envelope::before { color:green !important; }
+
+#resume-menu .container ul.navbar-nav li a span, #company-menu .container ul.navbar-nav li a span { margin-right: 10px; }
+
+#resume-menu h5, #company-menu h5 { font-size:18px; }
+}
+ @media (min-width: 768px) and (max-width: 1139px) {
+
+.top-home { background-size: cover; background-position: center center; height: 744px !important; }
+}
+ @media only screen and (max-width: 767px) {
+
+.top-home { background-size: cover; background-position: center center; height: 501px !important; }
+}
+ @media only screen and (max-width: 480px) {
+
+.top-home { background-size: cover; background-position: center center; height: 314px !important; }
+}
+.full .hometop .habout.visible {
+    margin-top: 20px;
+}
+.top-home { height: 375px ;}                          
+
+#members-dir-list > h5 { margin: 0 30px; }
+
+#members-dir-list > h5 .friendship-button a.add { display: block; width: 100% !important; }
+
+#buddypress #activity-stream p { font-weight: bold; }
+
+.fancybox-overlay .fancybox-overlay-fixed { z-index:99999; }
+
+.main_resume_wrapper{padding:0 0 0 260px;}
+
+.main_resume_wrapper #resume-menu {
+  left: 0;
+}
+
+#resume-about-block, #resume-skills-block, #resume-education-block, #resume-experience-block, #resume-portfolio-block, #resume-contact-block, #resume-jobs-block {
+  width: 100% !important;
+}
+
+.bgImg {
+  position: static !important;
+}
+
+.main_resume_wrapper #resume-cover-image { height: auto !important; }
+
+.homepagemenu .main_menu #menu-main-menu {
+  background: rgba(0, 0, 0, 0.2) none no-repeat scroll 0 0;
+  display: none;
+  margin: 0 !important;
+  position: absolute;
+  top: 69px;
+  width: 300px;
+}
+
+.menu_toggle_btn {
+  cursor: pointer;
+  padding: 5px;
+}
+.wrapper.inner-pages {
+    margin-top: 32px !important;
+}
+
+#companies-block{
+  border-top:none;
+}
+.number{
+  color: blue;
+/*
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 30px;*/
+}
+.links a{
+  color: black;
+  border: 1px solid #e5e5e5;
+}
+
+
+#rtMedia-start-upload{
+	display:none !important;
+}
+
+#rtmedia-add-media-button-post-update{
+	display:none;
+}
+

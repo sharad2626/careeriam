@@ -1,0 +1,119 @@
+@media (min-width:568px) and (max-width:767px){
+	.section-title h3 {display: block;font-size: 110px;margin: 0 auto;width: 100%;}
+	header{padding-top: 20px ; height: 118px;}
+	.menu-trigger{margin: 23px 0px 0px 20px;}
+    .logo{/*height: 45px;top: 5px;*/ margin:0 auto; width:280px;}
+	.logo a img{width:65% !important;}
+	.head-right {float: left;margin: 49px auto 0px;width: 60%;}
+    .login-sec{ margin: -6px 0 0;}
+	.join-us-sec .box, .other-details .box{width:100%;}
+	.join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n) {margin: 40px 0.5%;}
+    .about-boxes .box{width:100%;}
+    .half-col{width:100%;}
+    .career-pitch-sec .half-col:nth-child(2n){min-height:auto;}
+    .career-pitch-sec .video-text{height: auto;}
+    .about-boxes .box:nth-child(2n){margin:0;}
+    .about-boxes .box .img-box{width:338px;margin: 0 auto;}
+    .about-boxes .box-content{width:338px;margin: 0 auto;}
+    .breadcrumbs-sec{margin: 17px 0px 15px 20px;}
+    .top-links ul{margin-right:30px;}
+    .join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n){margin:40px 0;}
+    .gallery-items {float: none;width: 80%;position: relative;clear: both;margin: 0px auto;}
+    .fixed-filter{width:62%;}
+    .service_inner li{width:50%;}
+    .test-top-icon{left:-42px;}
+    .test-bottom-icon{bottom:34px;}
+    .fixed-filter ul{display: block;float: none;margin: 15px auto;}
+    .fixed-filter ul li {display: inline-block;float: none;}
+    .fixed-filter a {margin:0 }
+    .gallery-item, .grid-sizer {margin: 0 0 5px;width: 50%;}
+    .gallery-items{width:95%;}
+     .test-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .test-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;}
+    .edu-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;text-align: left;}
+    .edu-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .left-col .inner-container{float: none;margin:0 auto;}
+    .about-text h2, .exp-section .inner-container h2{text-align: center;}
+    .right-col .inner-container {float: none;margin: 0 auto;padding-left: 0px;}
+    .gallery-item img, .grid-sizer img{width:98%;}
+    .exp-section .half-col{text-align: center;width: 100%}
+    .exp-section-profile .half-col{text-align: center;width: 100%}
+    .video-text iframe {height: auto;width: 95%;}
+    /*.top-icon{width:40px;height: 40px;}*/
+    .virtual-text{right: 0; left: 0; margin:0 auto;}
+     .about-text{width: 80%; margin: 17% auto 0; float: none; text-align: center;}
+     .profile-banner{background-position: center center;}
+     .profile-details{left: 0; right: 0; margin: auto;}
+     .inbox-msgs .msg-wrap .three-fourth {margin-top: 20px; width: 100%;}
+     .inbox-msgs .msg-wrap .one-fourth {float: none;width: 100%;}
+     .inbox-msgs .msg-wrap .three-fourth .msg-listing .main-msg .msg-list {background: #f9f9f9 none repeat scroll 0 0;border-bottom: 1px solid #ddd;float: left;padding: 16px 0;width: 100%;}
+     .inbox-msgs .msg-wrap .three-fourth .main-msg .msg-list .your_msg .msg-box {box-sizing: border-box;clear: both;display: inline-block !important;text-align: center !important;width: 100% !important;}
+    header{height:auto;display:inline-block; padding-bottom: 0; margin-top:35px;}
+    .inner-pages header{margin-top:0px;}
+    .inner-pages header.logged-in-header {height: 120px; margin-top:0px;}
+    .menu-trigger{margin-top:8px;margin-bottom:7px}
+    .login-sec .half-col{min-height:400px;line-height:400px}
+    .login-sec .half-col .login-wrap{line-height:normal}
+    .login-sec .half-col .login-wrap .login-container{width:90%;margin:0 auto;padding:20px 0 0;text-align:center}
+    .login-sec .half-col .login-wrap .login-container .login-form{text-align:left;margin:50px auto 0}
+    .login-sec .half-col .login-wrap .login-container .social-row{margin:20px 0}
+    .search-profiles{padding-left:20px;padding-right:20px}
+    .search-profiles .search-prof-form .search-profile{width:75%}
+    .summary-result{padding:0 20px}
+    .listing-results .result-list{padding-left:0;padding-right:0}
+    .listing-results .result-list .list-details{width:55%;margin:5px 0 0 15px}
+    .listing-results .result-list .list-details .title .designation{clear:both;padding:0;line-height:1.5em}
+    .acc-sec .acc-head .add-btns{float:right;width: 48%;}.acc-sec .acc-head .add-btns {padding: 12px 5px;}.col{padding:0 1%;width:33.3333%;box-sizing:border-box;margin:0}
+    .col .label{margin-bottom:5px;text-align:left}.col+.col{margin-top:20px}
+    .col1,.my-acc-tabs ul li.acc-head{width:100%}.my-acc-tabs ul li.acc-head:nth-child(2){margin:1px 0;width:100%}
+   .my-account-settings{width:100%}
+   .my-account-settings .submit-row{text-align:center}.my-acc-tabs .submit-row .one-half .one-half{width:50%}.job-deatils-wrap .opening-details ul li{display:block;clear:both;margin:5px 0}.job-deatils-wrap .opening-details ul li+li{padding-left:0}.job-deatils-wrap .other-desc ul li span{width:92%}.job-deatils-wrap .other-desc .other-job-details .one-left,.job-deatils-wrap .other-desc .other-job-details .one-right{width:100%;clear:both}.job-deatils-wrap .other-desc .submit-row{margin-top:0}.social-wall-wrap #whats-new-form .social-avtar{display:block;margin:0 auto 20px;float:none;width:100%}.social-wall-wrap #whats-new-form .social-avtar .user-icon{display:inline-block}.social-wall-wrap #whats-new-form .share-content-wrap{width:100%;margin:0 auto 20px;float:none;display:block;height:auto}.social-wall-wrap #whats-new-form .share-content-wrap .post-update{float:none;margin:0px auto 0;display:inline-block}.social-wall-wrap #whats-new-form .trending-box{width:100%;margin:0 auto 20px;float:none}.social-wall-wrap .activity ul.activity-list{-moz-column-gap:1.5em;-webkit-column-gap:1.5em;column-gap:1.5em;-moz-column-count:2;-webkit-column-count:2;column-count:2}.search-profiles .search-prof-form .submit {clear: both;float: left;margin: 5px 0 0;width: 100%;}.search-profiles .search-prof-form .search-profile {width: 100%;}
+    .header-social {float: right;margin-top: -20px;}
+    .header-social ul{margin-top:10px;}
+    .join-us-sec .box span{display: block;float: none;height: 150px;margin: 50px auto 0;width: 150px;}
+    .login-sec .half-col:first-child{background-position: center center; height: 500px;}
+    .career-pitch-sec .profile-vedio {margin-bottom: 0px;min-height: 100%}
+    #buddypress ul.item-list li{min-width: 100%!important;display: block;width:100%!important;}
+.edu-title {text-align: left;width: 74%;}
+.profile-resume-text {right: -22%;width: 50%;}
+#buddypress .social-wall-wrap #whats-new-form #whats-new-content.share-content-wrap{width: 100% !important;margin: 0;}
+.about-text h2, .exp-section-profile .inner-container h2 {text-align: left;}
+.home{margin-top: -35px!important}
+.inner-pages-black-header {margin-top: -35px!important;}
+    body{margin: 0px 0 0 !important;}
+    .top-links .menu-trigger {display: block;float:right;}
+    .top-links .desk-menu {display: none;}
+    .top-links ul{
+        float: none;
+        text-align: center;
+    }
+    .inner-pages{margin: 35px 0 0!important;}
+    .resume-content h3{font-size: 17px;}
+    .contact_left_content {width: 100%;}
+    .contact_left_content .right {float: left;}
+    .contact_left_content .gradient-btton {margin: 22px auto 0;}
+    .contact_left_content .input {width: 100%;}
+    .contact_right_content {width: 100%;}
+    .contact_right_content iframe {margin-top: 20px;}
+    .arve-wrapper{height:auto;}
+ }
+  @media(max-width: 782px){
+                /*html{margin-top:35px !important;}*/
+                .wrapper.inner-pages{margin-top:0px !important;}
+                .banner{margin-top: -152px;}
+      }
+
+@media(max-width:767px){
+    .join-content, .half-col, .join-us-sec .box, .other-details .box{width:100%;}
+    .virtual-text {    width: 85%;}
+        .log-reg-button {display: block;float: none;margin: 10px auto 0;width: 325px;}
+        .career-pitch-sec .video-text {    height: auto;}
+         html{margin-top:0px !important;}
+         
+        #success span h3{text-align:center !important;}
+        .other-details{padding-left:10px; padding-right:10px;}
+        .profile-resume-text{position:relative; margin:0 auto; right: auto; width:100%;}
+        .one-fourth, .three-fourth{width:100% !important;  margin-bottom:10px;}
+         .one-half {    width:100%!important;  margin-bottom: 10px;  }
+         .resume-content .photos-sec .full .one-half + .one-half{float:none;}
+}

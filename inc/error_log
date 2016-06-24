@@ -1,0 +1,5 @@
+[09-Nov-2015 02:30:53 UTC] PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home4/court22/public_html/wp-content/themes/careeriam/inc/com-followdel.php on line 20
+[30-Apr-2016 21:55:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home4/court22/public_html/wp-content/themes/careeriam/inc/com-follow.php on line 20
+[04-May-2016 04:54:02 America/Chicago] PHP Parse error:  syntax error, unexpected '$checkkey' (T_VARIABLE) in /home4/court22/public_html/wp-content/themes/careeriam/inc/com-follow.php on line 23
+[04-May-2016 04:54:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$checkkey' (T_VARIABLE) in /home4/court22/public_html/wp-content/themes/careeriam/inc/com-follow.php on line 23
+[04-May-2016 04:55:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$checkkey' (T_VARIABLE) in /home4/court22/public_html/wp-content/themes/careeriam/inc/com-follow.php on line 23

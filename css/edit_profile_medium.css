@@ -1,0 +1,45 @@
+@media (min-width:568px) and (max-width:767px){
+	.section-title h3 {display: block;font-size: 110px;margin: 0 auto;width: 100%;}
+	header{padding-top: 20px ; height: 118px;}
+	.menu-trigger{margin: 23px 0px 0px 20px;}
+	.logo a img{width:70%;}
+	.head-right {float: left;margin: 49px auto 0px;width: 57%;}
+	.join-us-sec .box, .other-details .box{width:100%;}
+	.join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n) {margin: 40px 0.5%;}
+    .about-boxes .box{width:100%;}
+    .half-col{width:100%;}
+    .career-pitch-sec .half-col:nth-child(2n){min-height:auto;}
+    .career-pitch-sec .video-text{height: auto;}
+    .about-boxes .box:nth-child(2n){margin:0;}
+    .about-boxes .box .img-box{width:338px;margin: 0 auto;}
+    .about-boxes .box-content{width:338px;margin: 0 auto;}
+    .breadcrumbs-sec{margin: 17px 0px 15px 20px;}
+    .top-links ul{margin-right:30px;}
+    .join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n){margin:40px 0;}
+    .gallery-items {float: none;width: 80%;position: relative;clear: both;margin: 0px auto;}
+    .fixed-filter{width:62%;}
+    .service_inner li{width:50%;}
+    .test-top-icon{left:-42px;}
+    .test-bottom-icon{bottom:34px;}
+    .fixed-filter ul{display: block;float: none;margin: 15px auto;}
+    .fixed-filter ul li {display: inline-block;float: none;}
+    .fixed-filter a {margin:0 }
+    .gallery-item, .grid-sizer {margin: 0 0 5px;width: 50%;}
+    .gallery-items{width:95%;}
+     .test-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .test-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;}
+    .edu-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;}
+    .edu-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .left-col .inner-container{float: none;margin:0 auto;}
+    .about-text h2, .exp-section .inner-container h2{text-align: center;}
+    .right-col .inner-container {float: none;margin: 0 auto;padding-left: 0px;}
+    .gallery-item img, .grid-sizer img{width:98%;}
+    .exp-section .half-col{text-align: center;}
+    /*.top-icon{width:40px;height: 40px;}*/
+    .virtual-text{right: 0; left: 0; margin:0 auto;}
+     .about-text{width: 80%; margin: 17% auto 0; float: none; text-align: center;}
+     .profile-banner{background-position: center center;}
+     .profile-details{left: 0; right: 0; margin: auto;}
+     
+     header{height:auto;display:inline-block}.menu-trigger{margin-top:8px;margin-bottom:7px}.login-sec .half-col{min-height:400px;line-height:400px}.login-sec .half-col .login-wrap{line-height:normal}.login-sec .half-col .login-wrap .login-container{width:90%;margin:0 auto;padding:20px 0 0;text-align:center}.login-sec .half-col .login-wrap .login-container .login-form{text-align:left;margin:50px auto 0}.login-sec .half-col .login-wrap .login-container .social-row{margin:20px 0}.search-profiles{padding-left:20px;padding-right:20px}.search-profiles .search-prof-form .search-profile{width:75%}.summary-result{padding:0 20px}.listing-results .result-list{padding-left:0;padding-right:0}.listing-results .result-list .list-details{width:55%;margin:5px 0 0 15px}.listing-results .result-list .list-details .title .designation{clear:both;padding:0;line-height:1.5em}.acc-sec .acc-head .add-btns{float:right}.col{padding:0 1%;width:33.3333%;box-sizing:border-box;margin:0}.col .label{margin-bottom:5px;text-align:left}.col+.col{margin-top:20px}.col1,.my-acc-tabs ul li.acc-head{width:100%}.my-acc-tabs ul li.acc-head:nth-child(2){margin:1px 0;width:100%}.full .one-half,.my-account-settings{width:100%}.my-account-settings .submit-row{text-align:center}.my-acc-tabs .submit-row .one-half .one-half{width:50%}
+ }

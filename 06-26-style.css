@@ -1,0 +1,1597 @@
+/*
+
+ Theme Name:   CareerIam
+
+ Description:  Social Job Site
+
+ Author:       Matt Jennings
+
+ Author URI:   http://codeandsilver.com
+
+ Template:     wpjobus
+
+ Version:      1.0.0
+
+*/
+
+body {
+
+    background-color: #ecf0f1;
+
+    color: #666666;
+
+    font-family: "Montserrat",sans-serif;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    margin: -32px 0 0 !important;
+
+    overflow-x: hidden;
+
+}
+
+body.logged-in {
+
+    background-color: #ecf0f1;
+
+    color: #666666;
+
+    font-family: "Montserrat",sans-serif;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    margin: 0px 0 0 !important;
+
+    overflow-x: hidden;
+
+}
+
+.logo {
+
+	margin-top: 2px;
+
+}
+
+#search-widget {
+
+	float: left;
+
+	width: 100%;
+
+	margin-top: 50px !important;
+
+	margin-bottom: 50px;
+
+}
+
+.coverImageHolder {
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.99999;
+	-khtml-opacity: 0.9999;
+	opacity: 0.9999;
+	
+}
+
+.bannerText {
+
+	position: absolute;
+
+	left: 0;
+
+	right: 0;
+
+	top: 35%!important;
+
+	text-align: center;
+
+	padding: 10px 30px 30px 30px !important;
+
+	max-width: 600px;
+
+	border: 0px solid #fff !important;
+
+
+	zoom: 1;
+
+	z-index: 9;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+#resume-cover-image {
+
+	position: relative;
+
+	width: 100%;
+
+	float: left;
+
+	overflow: hidden;
+
+	background: #000;
+
+	height: 600px !important;
+
+}
+
+#page {
+
+	margin-top: 40px;
+
+}
+
+.socket {
+
+    background-color: #000 !important;
+
+    color: #fff;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+body.home-page .new-posts-menu, .new-posts-menu{
+
+	display: none !important;
+
+}
+
+body.logged-in .new-posts-menu{
+
+	display: inline;
+
+}
+
+.resume-author-avatar-holder {
+
+	display: inline-block;
+
+	width: 255px !important;;
+
+	height: 255px !important;;
+
+	border: solid 0px #fff !important;
+
+	-webkit-border-radius: 140px;
+
+	-moz-border-radius: 140px;
+
+	border-radius: 140px;
+
+	overflow: hidden;
+
+}
+
+footer {
+
+background-color: #fff;
+
+border-top: solid 3px #bdc3c7;
+
+float: left;
+
+width: 100%;
+
+padding: 0px !important;
+
+}
+
+/*Activity*/
+
+#whats-new-options {
+
+	overflow: hidden !important;
+
+}
+
+#buddypress div.activity-comments form .ac-textarea {
+
+	height: 23px;
+
+}
+
+body.activity #buddypress {
+
+	background: #fff;
+
+	padding: 20px;
+
+}
+
+.bpfb_form_container {
+
+	padding: 1em;
+
+	background-color: #fff !important;
+
+	overflow:hidden;
+
+}
+
+.wall-content {
+
+    background: #ecf0f1 none repeat scroll 0 0 !important;
+
+}
+
+.activity-avatar {
+
+    background: #fff none repeat scroll 0 0;
+
+}
+img{
+	max-width:100%;
+}
+.edit-attachment{
+	display:none !important;
+}
+.acomment-avatar {
+
+    float: left;
+
+    padding: 0 10px 0 0;
+
+}
+
+#buddypress div.item-list-tabs ul li.selected a {
+
+	background-color: #fff;
+
+	color: #555;
+
+	opacity: .8;
+
+	font-weight: 700;
+
+}
+
+#buddypress div.activity-comments {
+
+	margin: 0px 0 0 0px!important;
+
+	overflow: hidden;
+
+	position: relative;
+
+	width: auto;
+
+	clear: both;
+
+	background: rgb(238, 238, 238)!important;
+
+}
+
+#buddypress ul.item-list li {
+
+  border-bottom: 0px solid #eaeaea !important;
+
+}
+
+#buddypress form#whats-new-form #whats-new-content {
+
+    float: right;
+
+    margin-left: 0;
+
+    padding: 0 !important;
+
+    width: 86%;
+
+}
+
+.avatar {
+
+	border-radius: 30px !important;
+
+}
+
+body.home #page {
+
+	background: #fff;
+
+	margin-top: 0px;
+
+	padding-top: 40px !important;
+
+}
+
+.logo img {
+
+	margin-top: -18px;
+
+	width: 300px !important;
+
+}
+
+.ls-wp-fullwidth-container {
+
+	margin-top: -75px;
+
+}
+
+#layerslider .ls-wp-fullwidth-container {
+
+    margin-top: 0;
+
+}
+
+.ls-bg.ls-preloaded {
+
+    height: 100% !important;
+
+    margin: 0 !important;
+
+    width: 100% !important;
+
+}
+
+.main_menu ul li a {
+
+	color: #000000 !important;
+
+}
+
+#top {
+
+	background: #fff !important;
+
+}
+
+.header-stats {
+
+	display: none;
+
+}
+
+.top-social-icons {
+
+float: right !important;
+
+}
+
+.top_menu.account-menu ul{
+
+	margin-top:2px;
+
+}
+
+.top_menu.account-menu ul li.last a {
+
+	background-color: #FFFFFF !important;
+
+	color: #000; !important;
+
+	border: 1px solid #000;
+
+	
+
+}
+
+.top_menu.account-menu ul li.first a {
+
+	background-color: #FFFFFF !important;
+
+	color: #000; !important;
+
+	border: 1px solid #000;
+
+}
+
+.main_menu ul {
+
+	padding: 0;
+
+	margin: 0;
+
+	float: right;
+
+	list-style: none;
+
+	margin-top: 8px !important;
+
+	margin-bottom: 19px !important;
+
+	margin-left: 35px !important;
+
+}
+
+iframe {
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important;
+
+	-moz-box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important;
+
+	box-shadow: 10px 10px 8px 0px rgba(48,48,48,0.68) !important;
+
+}
+
+.resume-section-title {
+
+	text-align: center;
+
+	color: #000;
+
+	margin-bottom: 10px;
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+}
+.resume-section-title img{
+	max-width:200px;
+}
+.fa-search:before {
+
+	content: "\f002";
+
+	color: #000;
+
+}
+
+.education-period-circle {
+
+	background-color: #2980B9;
+
+}
+
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+
+	content: "\f19c";
+
+	color: #2980B9;
+
+}
+
+.fa-trophy:before, .fa-building:before, .fa-bookmark:before, .fa-envelope:before, .fa-list-ul:before, .work-experience-org-name,  .work-experience-job-type, .fa-mobile-phone:before, .fa-mobile:before, .fa-chain:before, .fa-link:before, .fa-check:before, .fa-map-marker:before, .fa-linkedin-square:before, .fa-copy:before, .fa-files-o:before {
+
+	color: #2980B9;
+
+}
+
+period-circle {
+
+	background-color: #2980B9;
+
+}
+
+.awards-trophy .education-period-circle {
+
+background-color: #2980B9;
+
+}
+
+.vid {
+
+	margin: 0 auto;
+
+	width: 500px;
+
+}
+
+.ff-items a {
+
+	display: initial;
+
+	position: relative;
+
+	background: #fff;
+
+	width: 100%;
+
+	height: 207px;
+
+	overflow: hidden;
+
+	-webkit-border-radius: 3px;
+
+	-moz-border-radius: 3px;
+
+	border-radius: 3px;
+
+}
+
+body.single-resume .two_third {
+
+	
+
+	background: #fff;
+
+}
+
+body.single-resume .ff-container {
+
+	margin-bottom: 100px;
+
+}
+
+.education-period-trophy .fa-trophy:before {
+
+	color: #fff;
+
+}
+
+.awards-trophy .education-period-circle::before, .awards-trophy .education-period-circle::after {
+
+	border-left: 1px solid #2980B9;
+
+}
+
+#blog .ui-slider-horizontal .ui-slider-handle {
+
+    background: none repeat scroll 0 0 #2980B9;
+
+}
+
+
+
+.cpmpany-banner .banner-hello, .job-banner .banner-hello{
+
+	 margin-top: 10%;
+
+    top: 100%;
+
+}
+
+
+
+#single-resume #header, #single-company #header, #single-job #header  {
+
+	margin-top: 0px !important;
+
+	
+
+}
+
+#single-resume #top, #single-company #top, #single-job #top{
+
+	 margin-top: 0px;
+
+}
+
+.menu-nav-trigger{
+
+	display:none;
+
+}
+
+a.my-account-header-settings-link{
+
+	margin-left:8px;
+
+	margin-top:10px;
+
+}
+
+.widget #members-list-options{
+
+	margin-left:10px;
+
+}
+
+.sidebar-widgets .widget ul li{
+
+	font-style:normal;
+
+}
+
+.resume-associates {
+
+    background: none repeat scroll 0 0 #fff;
+
+    border: 30px solid #fff;
+
+    float: left;
+
+    padding-bottom: 30px;
+
+    position: relative;
+
+    width: 100%;
+
+    z-index: 99;
+
+		text-align:left;
+
+}
+
+
+
+*, *::after, *::before {
+
+    box-sizing: border-box;
+
+}
+
+
+
+#resume-about-block .two_third,#resume-skills-block .two_third{
+
+	padding:20px;
+
+}
+
+
+
+.widget .block-title {
+
+    margin-top: 0;
+
+}
+
+.resume-associates .widget .block-title {
+
+    color:#000;
+
+    font-family: Roboto Slab;
+
+    font-size: 24px;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    line-height: 24px;
+
+	text-align:center
+
+}
+
+.resume-associates .widget .divider{
+
+	margin-top:10px;
+
+	margin-bottom:10px;
+
+}
+
+.resume-associates .widget ul#members-list{
+
+	margin-left:15px;
+
+}
+
+#resume-contact-block{
+
+	margin-top:0px;
+
+}
+
+
+
+ .sidebar-widgets .widget .block-title{
+
+	 text-transform:none;
+
+	 color:#000;
+
+ }
+
+.sidebar-widgets .widget .block-title a{
+
+	color:#000;
+
+}
+
+.sidebar-widgets .widget ul#members-list li a{
+
+	 color: #484848;
+
+    font-family: Roboto Slab;
+
+    font-size: 18px;
+
+    margin-top: 4px;
+
+    transition: all 0.2s ease 0s;
+
+	text-transform:none;
+
+}
+
+.sidebar-widgets .widget ul#members-list li a:hover{
+
+	color:#1F6797;
+
+}
+
+
+
+.sidebar-widgets .widget ul#members-list li .activity{
+
+	font-size:10px;
+
+}
+
+
+
+.fa-info-circle::before{
+
+	color: #2980b9;
+
+}
+
+
+
+.awards-trophy .pitchcompany span a {
+
+    color: #2980b9;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+}
+
+
+
+.awards-trophy .pitchcompany .fa {
+
+    color: #16a085;
+
+    float: left;
+
+    font-size: 16px;
+
+    margin-top: 4px;
+
+    text-align: center;
+
+    width: 34px;
+
+}
+
+#resume-cover-image .bannerText {
+
+	top:17% !important;
+
+}
+
+ul#companies-block-list-ul li{
+
+   border-bottom: 1px solid #ecf0f1;
+
+}
+
+ul#companies-block-list-ul li a, ul#companies-block-list-ul li a:hover{
+
+	border:none;
+
+}
+
+ul#companies-block-list-ul li a.resumelists{
+
+	width:65% !important;
+
+	float:left !important; 
+
+}
+
+ 
+
+ul#companies-block-list-ul li .generic-button{
+
+	float:right !important;
+
+	line-height:85px !important;
+
+	width:35% !important;
+
+}
+
+
+
+ul#companies-block-list-ul li .generic-button a{
+
+	font-size:12px;
+
+}
+
+.resume-contact-info .widget #message{
+
+	padding:2px 20px;
+
+}
+
+.cptch_input{
+
+	float:none;
+
+}
+
+
+
+
+
+.tab_content.bc_block {
+
+    display: block !important;
+
+}
+
+.chat_button{
+
+	height:25px !important;
+
+}
+
+
+
+
+
+.chat_send_message_btn {
+
+    background: none repeat scroll 0 0 #333;
+
+    color: #ffffff;
+
+    float: right;
+
+    font-weight: bold;
+
+    margin: 0;
+
+    padding: 12px 10px 26px 11px !important;
+
+    position: absolute;
+
+    top: 1px;
+
+}
+
+
+
+.chat_input {
+
+    border: 0 none;
+
+    height: 38px;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 180px;
+
+}
+
+
+
+#item-header-avatar .avatar {
+
+    border-radius: 100px !important;
+
+}
+
+
+
+#whats-new-textarea > textarea {
+
+    background: none repeat scroll 0 0 rgba(238, 238, 238, 0.9) !important;
+
+    border: medium none;
+
+    min-height: 120px;
+
+	float:right;
+
+	width:100%!important;
+
+}
+
+#buddypress form#whats-new-form #whats-new-submit {
+
+    float: right;
+
+    margin-top: 0;
+
+}
+
+#whats-new-options #whats-new-submit input {
+
+    background: none repeat scroll 0 0 #2980b9;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    height: auto;
+
+    margin: 0;
+
+    padding: 8px;
+
+    text-transform: capitalize;
+
+}
+
+#whats-new-options #whats-new-submit input:hover {
+
+	background: none repeat scroll 0 0 #479ed7 !important;
+
+	}
+
+#buddypress div.item-list-tabs ul li.last select {
+
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+    border: 1px solid #ccc;
+
+    color: #000;
+
+    float: right;
+
+    font-size: 14px;
+
+    max-width: 100%;
+
+    padding: 3px;
+
+    vertical-align: middle;
+
+}
+
+#buddypress div.activity-comments form .ac-textarea {
+
+    border: medium none;
+
+    color: #000;
+
+    height: 23px;
+
+    min-height: 40px;
+
+	overflow:hidden;
+
+}
+
+#buddypress div.activity-comments form .ac-textarea .ac-input {
+
+    height: 100% !important;
+
+    margin: 0 !important;
+
+}
+
+.bpfb_actions_container.bpfb-theme-new.bpfb-alignment-right {
+
+    float: left;
+
+    margin-right: 0;
+
+    width: 82%;
+
+}
+
+#buddypress div#subnav.item-list-tabs ul li.last {
+
+    margin-top: 2px;
+
+}
+
+
+
+#buddypress #whats-new-options {
+
+    float: right;
+
+    height: auto;
+
+    overflow: auto;
+
+    width: auto;
+
+}
+
+#buddypress div#subnav.item-list-tabs {
+
+    background: none repeat scroll 0 0 transparent;
+
+    float: right;
+
+    margin: -29px 0 10px;
+
+    overflow: hidden;
+
+    width: auto;
+
+}
+
+#buddypress div.item-list-tabs {
+
+    background: none repeat scroll 0 0 transparent;
+
+    clear: left;
+
+    float: left;
+
+    margin: 5px 0 0;
+
+    overflow: hidden;
+
+    width: auto;
+
+}
+
+
+
+#activity-filter-select > label {
+
+    float: left;
+
+    margin: 3px 10px 0 0;
+
+}
+
+#buddypress .activity .load-more {
+
+    background: none repeat scroll 0 0 #2980b9 !important;
+
+    border-radius: 34px;
+
+	padding:0!important;
+
+}
+
+#buddypress .activity .load-more a {
+
+    color: #fff !important;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    padding: 10px 0;
+
+    width: 100%;
+
+}
+
+#buddypress .activity .load-more a:hover {
+
+	background: none repeat scroll 0 0 #479ed7 !important;
+
+}
+
+#buddypress form#whats-new-form p.activity-greeting {
+
+    float: left;
+
+    line-height: 0.5em;
+
+    margin-bottom: 15px;
+
+    margin-left: 40px;
+
+}
+
+#object-nav.item-list-tabs.no-ajax {
+
+    margin-bottom: 15px;
+
+}
+
+#item-body #subnav.item-list-tabs.no-ajax {
+
+    margin: 0 !important;
+
+}
+
+
+
+#whats-new-options #whats-new-post-in-box {
+
+    float: left;
+
+    left: 126px;
+
+    position: absolute;
+
+    width: 153px;
+
+}
+
+#whats-new-options #whats-new-post-in-box select {
+
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+    border: 1px solid #ccc;
+
+    color: #000;
+
+    float: right;
+
+    font-size: 14px;
+
+    margin: 0 !important;
+
+    padding: 3px;
+
+    vertical-align: middle;
+
+}
+
+.activity-content, .activity-comments {
+
+    background: #fff none repeat scroll 0 0;
+
+    float: right;
+
+    margin: 0 !important;
+
+    padding: 12px;
+
+    width: 90% !important;
+
+}
+
+#whats-new-avatar .avatar.avatar-50.photo {
+
+    border-radius: 90px !important;
+
+    height: 70px;
+
+    width: 70px;
+
+}
+
+.activity-avatar .avatar.avatar-50.photo {
+
+    border-radius: 90px !important;
+
+    height: 60px;
+
+    width: 60px;
+
+}
+
+#whats-new-form #whats-new-content #whats-new-textarea {
+
+    margin-top: -20px;
+
+}
+
+#buddypress ul.item-list li img.avatar {
+
+    float: left;
+
+    margin-bottom: 0;
+
+    margin-left: 0 !important;
+
+    margin-right: 0;
+
+    margin-top: 0;
+
+    min-height: 60px;
+
+    min-width: 60px;
+
+    padding: 5px;
+
+    vertical-align: bottom;
+
+}
+
+#buddypress .activity-list .activity-content {
+
+    margin: 0 0 0 16px ;
+
+}
+
+.resume-associates > .widget > .item-avatar > a {
+
+    float: left;
+
+}
+
+.resume-associates .widget .block-title {
+
+    text-transform: capitalize;
+
+}
+
+.resume-associates .widget .item-avatar {
+
+    border-bottom: 1px dotted #ccc;
+
+    margin: 0 0 15px;
+
+    overflow: hidden;
+
+    padding: 0 0 13px;
+
+}
+
+.resume-associates .widget .item-avatar:last-child {
+
+    border-bottom: none;
+
+}
+
+.resume-associates .widget .item-avatar .item {
+
+    color: #222;
+
+    float: right;
+
+    font-size: 13px;
+
+    text-transform: capitalize;
+
+    width: 77%;
+
+}
+
+.resume-associates .widget .item-avatar .item .item-title.fn {
+
+    font-weight: bold;
+
+    text-transform: capitalize;
+
+}
+
+
+
+/*my*/
+
+
+
+.one_third.sidebar-widgets {
+
+    border: 1px solid rgb(229, 229, 229);
+
+	padding: 0 0 10px;
+
+	background: #fff;
+
+}
+
+.block-title {
+
+    border-bottom: 1px solid rgb(229, 229, 229);
+
+    margin: 0;
+
+    padding: 16px;
+
+}
+
+
+
+.block-title > a {
+
+    margin: 0 0 0 10px;
+
+}
+
+
+
+.one_third.sidebar-widgets .item-avatar {
+
+    margin: 10px 0 0 10px;
+
+    padding: 0 0 8px;
+
+    width: 95%;
+
+}
+
+
+
+.one_third.sidebar-widgets > a {
+
+    float: left;
+
+    margin: 6px 0 0 10px;
+
+    width: 100%;
+
+}
+
+
+
+.item {
+
+    margin: 0 0 0 10px;
+
+    padding: 0 0 9px 10px;
+
+    width: 92%;
+
+}
+
+
+
+.item:nth-child(even){
+
+   border-bottom: 1px solid rgb(229, 229, 229);
+
+}
+
+
+
+.avatar {
+
+    margin: 0 0 0 10px;
+
+}
+
+
+
+/*company-holder-block*/
+
+
+
+.company-holder-block .avatar {
+
+    float: left;
+
+    margin: 20px 0 0;
+
+}
+
+
+
+.resume-associates .widget {
+
+    border: medium none;
+
+}
+#wpjobus_resume_video {
+	padding: 0;
+	margin: 0;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	width: auto;
+}
+
+#wpjobus_resume_video:hover {
+	padding: 0;
+	margin: 0;
+	margin-left: 5px;
+	float: left;
+	width: auto;
+	color: #1f6797;
+}
+.company-list-name > p {
+
+    color: #333;
+
+    float: left;
+
+    font-family: Roboto Slab;
+
+    font-size: 16px;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+
+
+.resume-author-avatar {
+
+    margin-bottom: 0;
+
+}
+
+
+
+.resume-author-avatar > h4 {
+
+    margin: 20px 0 4px;
+
+}
+
+
+
+.company-holder-block.sidebar {
+
+    border-bottom: 1px solid rgb(229, 229, 229);
+
+}
+
+
+
+<!--cs-->
+
+#resume_careerpitch_radio {
+
+    float: left;
+
+    width: auto;
+
+}
+
+#resume_careerpitch_radio {
+
+    float: left !important;
+
+    width: auto;
+
+}
+
+
+
+.three_fifth > span {
+
+    float: left;
+
+}
+
+
+
+.three_fifth > p {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+
+
+.upload21 {
+
+    float: left;
+
+    margin: 7px 0 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 150px;
+
+}
+
+.upload21 .fa.fa-cloud-upload {
+
+    float: left !important;
+
+}
+
+
+
+.upload21 .criteria-video-button.button {
+
+    float: left !important;
+
+    margin: 0 !important;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 114px;
+
+}
+
+
+
+.one_half .three_fifth > span {
+
+    color: #484848;
+
+    font-size: 12px;
+
+    margin: 5px 0 0;
+
+}
+
+
+
+
+
+#buddypress #subnav.item-list-tabs.no-ajax {
+
+    float: right;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+}
+
+td.img_center {
+
+  text-align: center;
+
+  margin: auto;
+
+  padding: 0;
+
+  vertical-align: middle;
+
+}
+
+#pfdf {
+
+    border: 0 none;
+
+    left: 0;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+    z-index:666;
+
+}
+
+#pdf-contain {
+
+    margin: 0;
+
+    padding: 0;
+
+    position: relative;
+
+}
+
+#pfdf > img {
+
+    width: 25%;
+
+}
+
+.company-list-icon {
+
+white-space: inherit  !important;	
+
+overflow: visible !important;
+
+	}
+
+.helper {
+
+    display: none;
+
+}	
+
+@media screen and (max-width:480px){
+
+	#pfdf > img {
+
+    width: 40%;
+
+}}
+
+.win_titlebar {
+	background-color: #333 !important;
+}
+
+.win_titlebar {
+    background-color: #333 !important;
+}
+
+.admin-settings-header-top {
+    display: none;
+}

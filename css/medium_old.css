@@ -1,0 +1,49 @@
+@media (min-width:568px) and (max-width:767px){
+	header .container{width: 100%;}
+	.section-title h3 {display: block;font-size: 110px;margin: 0 auto;width: 100%;}
+	header{padding-top: 20px ;}
+	.menu-trigger{margin: 23px 0px 0px 20px;}
+	.logo a img{width:70%;}
+	.head-right {float: none;margin: 49px auto 0px;width: 84%;display: inline-block;}
+	.join-us-sec .box, .other-details .box{width:100%;}
+	.join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n) {margin: 40px 0.5%;}
+    .about-boxes .box{width:100%;}
+    .half-col{width:100%;}
+    .career-pitch-sec .half-col:nth-child(2n){min-height:auto;}
+    .career-pitch-sec .video-text{height: auto;}
+    .about-boxes .box:nth-child(2n){margin:0;}
+    .about-boxes .box .img-box{width:338px;margin: 0 auto;}
+    .about-boxes .box-content{width:338px;margin: 0 auto;}
+    .breadcrumbs-sec{margin: 17px 0px 15px 20px;}
+    .top-links ul{margin-right:30px;}
+    .join-us-sec .box:nth-child(2n), .other-details .box:nth-child(2n){margin:40px 0;}
+    .gallery-items {float: none;width: 80%;position: relative;clear: both;margin: 0px auto;}
+    .fixed-filter{width:62%;}
+    .service_inner li{width:50%;}
+    .test-top-icon{left:-42px;}
+    .test-bottom-icon{bottom:34px;}
+    .fixed-filter ul{display: block;float: none;margin: 15px auto;}
+    .fixed-filter ul li {display: inline-block;float: none;}
+    .fixed-filter a {margin:0 }
+    .gallery-item, .grid-sizer {margin: 0 0 5px;width: 50%;}
+    .gallery-items{width:95%;}
+     .test-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .test-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;}
+    .edu-exp-list {display: inline-block;margin: 20px auto;padding: 0;position: relative;width: 100%;}
+    .edu-exp-list #slides, #slides2{margin: 0 auto;max-width:90%;}
+    .left-col .inner-container{float: none;margin:0 auto;}
+    .about-text h2, .exp-section .inner-container h2{text-align: center;font-size: 40px;}
+    .right-col .inner-container {float: none;margin: 0 auto;padding-left: 0px;}
+    .gallery-item img, .grid-sizer img{width:98%;}
+    .exp-section .half-col{text-align: center;}
+    /*.top-icon{width:40px;height: 40px;}*/
+    .virtual-text{right: 0; left: 0; margin:0 auto;}
+     .about-text{width: 80%; margin: 17% auto 0; float: none; text-align: center;}
+     .profile-banner{background-position: center center;}
+     .profile-details{left: 0; right: 0; margin: auto;}
+     .log-reg-links{display: block;float: none;text-align: center;}
+     .log-reg-links .btn{float: none; display: inline-block;}
+     .test-top-icon{background-size: 50px 40px;left:-23px;}
+     .test-bottom-icon{background-size: 50px 40px;}
+     .top-icon{background-size: 70px 60px;left:-33px;}
+     .bottom-icon{background-size: 70px 60px;}.login-sec .half-col{min-height:400px;line-height:400px}.login-sec .half-col .login-wrap{line-height:normal}.login-sec .half-col .login-wrap .login-container{width:90%;margin:0 auto;padding:20px 0 0;text-align:center}.login-sec .half-col .login-wrap .login-container .login-form{text-align:left;margin:50px auto 0}.login-sec .half-col .login-wrap .login-container .social-row{margin:20px 0}}
